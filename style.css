@@ -1,0 +1,67 @@
+/* Styles for the page */
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  #container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+  }
+  
+  form label {
+    margin-top: 10px;
+  }
+  
+  form input,
+  form select {
+    margin-top: 5px;
+    padding: 5px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form button {
+    margin-top: 10px;
+    padding: 5px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-list {
+    width: 70%;
+    height: 400px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .user-details {
+    width: 30%;
+    height: 400px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
