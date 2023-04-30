@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Form Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>User Form Demo</h1>
+  
+  <div id="container">
+    <form id="user-form">
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name" required>
+      
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Please select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      
+      <button type="submit">Add User</button>
+    </form>
+    
+    <div id="user-list" class="user-list"></div>
+    
+    <div id="user-details" class="user-details"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
